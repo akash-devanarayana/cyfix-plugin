@@ -1,4 +1,4 @@
-// cypress/e2e/login-test.cy.js
+// cypress/e2e/login-test.spec.js
 describe('Login Page Tests', () => {
     before(() => {
         cy.visit('login.html');

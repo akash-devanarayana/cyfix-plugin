@@ -1,7 +1,7 @@
 // Selector Generator
 // Responsible for generating alternative selectors for candidate elements
 
-import {DOMNode, HealingStrategy} from '../../cyfix-plugin/src/types';
+import {DOMNode, HealingStrategy} from 'cyfix-types';
 
 /**
  * Interface representing a generated selector

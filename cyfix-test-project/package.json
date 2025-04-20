@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "serve": "npx http-server ./public -p 8080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "cypress": "^14.3.1",
+    "cypress": "12.17.3",
     "cyfix-core": "file:../packages/cyfix-core",
-    "cyfix-plugin": "file:../packages/cyfix-plugin"
+    "cyfix-plugin": "file:../packages/cyfix-plugin",
+    "http-server": "^14.1.1"
   }
 }

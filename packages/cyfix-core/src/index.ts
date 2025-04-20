@@ -1,5 +1,5 @@
 // CyFix Core - Main Entry Point
-import {DOMNode, DOMSnapshot, HealingResult} from '../../cyfix-plugin/src/types';
+import {DOMNode, DOMSnapshot, HealingResult} from 'cyfix-types';
 import {findCandidateElements} from './finder';
 import {scoreElements} from './scorer';
 import {generateSelectors} from './generator';

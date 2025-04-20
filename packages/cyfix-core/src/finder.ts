@@ -2,7 +2,7 @@
 // Responsible for finding candidate elements in the current DOM that might
 // match an element from the baseline DOM
 
-import {DOMNode} from '../../cyfix-plugin/src/types';
+import {DOMNode} from 'cyfix-types';
 
 /**
  * Interface representing a feature of a DOM element that can be used

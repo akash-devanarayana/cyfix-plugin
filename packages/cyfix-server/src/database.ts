@@ -5,7 +5,7 @@ import sqlite3 from 'sqlite3';
 import {Database as SQLiteDatabase, open} from 'sqlite';
 import fs from 'fs/promises';
 import path from 'path';
-import {DOMSnapshot} from '../../cyfix-plugin/src/types';
+import {DOMSnapshot} from 'cyfix-types';
 
 /**
  * Interface for a DOM snapshot record in the database

@@ -2,7 +2,7 @@
 // Responsible for scoring candidate elements based on their similarity
 // to the baseline element
 
-import {DOMNode} from '../../cyfix-plugin/src/types';
+import {DOMNode} from 'cyfix-types';
 
 /**
  * Interface representing a scored candidate element
