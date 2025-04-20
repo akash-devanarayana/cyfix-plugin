@@ -1,0 +1,18 @@
+{
+  "name": "cyfix-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^14.3.1",
+    "cyfix-core": "file:../packages/cyfix-core",
+    "cyfix-plugin": "file:../packages/cyfix-plugin"
+  }
+}

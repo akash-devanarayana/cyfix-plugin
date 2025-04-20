@@ -1,0 +1,12 @@
+/node_modules
+/packages/cyfix-core/node_modules
+/packages/cyfix-plugin/node_modules
+/packages/cyfix-server/node_modules
+/cyfix-test-project/node_modules
+
+/packages/cyfix-core/package-lock.json
+/packages/cyfix-plugin/package-lock.json
+/packages/cyfix-server/package-lock.json
+package-lock.json
+
+.idea/

@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Login Test</title>
+</head>
+<body>
+<form id="login-form">
+    <input id="username" placeholder="Username" type="text">
+    <input id="password" placeholder="Password" type="password">
+    <button class="login-btn">Login</button>
+</form>
+<div class="welcome-message" style="display:none;">Welcome, Test User</div>
+<div class="error-message" style="display:none;">Invalid credentials</div>
+
+<script>
+    document.querySelector('.login-btn').addEventListener('click', function (e) {
+        e.preventDefault();
+        const username = document.querySelector('#username').value;
+        if (username === 'testuser') {
+            document.querySelector('.welcome-message').style.display = 'block';
+        } else {
+            document.querySelector('.error-message').style.display = 'block';
+        }
+    });
+</script>
+</body>
+</html>
