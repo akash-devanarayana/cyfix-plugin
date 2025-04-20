@@ -2,11 +2,18 @@
 /packages/cyfix-core/node_modules
 /packages/cyfix-plugin/node_modules
 /packages/cyfix-server/node_modules
+/packages/cyfix-types/node_modules
 /cyfix-test-project/node_modules
 
 /packages/cyfix-core/package-lock.json
 /packages/cyfix-plugin/package-lock.json
 /packages/cyfix-server/package-lock.json
+/packages/cyfix-types/package-lock.json
 package-lock.json
 
 .idea/
+
+/packages/cyfix-core/dist
+/packages/cyfix-plugin/dist
+/packages/cyfix-server/dist
+/packages/cyfix-types/dist
